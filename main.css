@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    align-items: center;
+    width: 660px;
+    height: 460px;
+    margin: auto;
+    background: linear-gradient(to right, orangered, yellow);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    background-color: orangered;
+    color: #fff;
+}
+
+h2 {
+    text-align: center;
+    background-color: orange;
+    color: #fff;
+}
+
+h3 {
+    text-align: center;
+    background-color: yellow;
+}
+
+.container input {
+    align-items: center;
+    margin: auto;
+    width: 100px;
+    border-radius: 7px;
+    border-color: black;
+    padding: 2px;
+    margin-left: 10px
+    ;
+}
+
+button {
+    border-radius: 7px;
+    border-color: #fff;
+    padding: 5px;
+    margin-left: 8px;
+}
+
+button:hover {
+    background-color: rgb(54, 52, 52);
+    color: #ffffff;
+}

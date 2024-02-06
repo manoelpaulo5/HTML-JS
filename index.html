@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-HTML</title>
+    <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+    <header>
+        <h1>Formulário EBAC</h1>
+    </header>
+        <h2>Validando o HTML no JavaScript</h2><br />
+        <h3>Formulário válido quando o numeral do campo B for maior que o do campo A</h3><br />
+        <div class="container">
+            <form>
+                <input id="campoA" type="number" required placeholder="CampoA"/>
+                <input id="campoB" type="number" required placeholder="CampoB"/>
+                <p class="error-message">O numero no campo B precisa ser maior que o numero no campo A</p>
+                <p class="success-message">Sucesso! O numero no camnpo B e maior que o numero no campo A</p>
+                <button id="finish" type="submit">Enviar</button>
+            </form> 
+        </div>
+        <script src="/main.js"></script>
+</body>
+</html>
